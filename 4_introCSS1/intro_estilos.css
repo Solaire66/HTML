@@ -1,0 +1,49 @@
+/*Estilos para colores*/
+.colores {
+    color: crimson;
+}
+
+.color-hexadecimal {
+    color: #38A3A5;
+}
+
+.color-rgb {
+    color: rgb(100, 0, 200);
+
+}
+/*rgba agrega el alpha para transparecncia*/
+.color-rgba {
+    color: rgba(10, 10, 10, 0.5)
+}
+
+/* Fondos */
+.fondo {
+    background: cyan;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVMf3OtCTWZtmWJLXmfddliUcGJRM_o8Ws-Cdnu9PAxQtaLxjXgxYUQr1-fAlwjgoDPX0&usqp=CAU");
+    background-position: right bottom;
+}
+
+.fondo-interno {
+    background-image: url("imagenes/fondo2.jpg");
+    background-position: right bottom;
+}
+
+/*  Tamaños  */
+.ancho {
+    background-color:blueviolet;
+    width: 100px;
+}
+
+.alto {
+    background-color:rgb(95, 155, 224);
+    height: 100px;
+}
+/*padding es el espacio del contener al contenido*/
+.tarjeta {
+    border-style: solid;
+    border-color:cadetblue;
+    border-width: 1px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    margin: 10px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudoclases</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+
+        .hover:hover {
+            background-color: burlywood;
+        }
+
+        .listado {
+            padding: 16px;
+            background-color: aquamarine;
+        }
+
+        .listado p:first-child {
+            color: white;
+        }
+
+        a:link {
+            color: blueviolet;
+        }
+
+        a:visited {
+            color: crimson;
+
+        }
+
+        a:hover {
+            color: darksalmon;
+        }
+
+        a:active {
+            color: greenyellow;
+        }
+    </style>
+    <!-- https://www.w3schools.com/css/css_pseudo_classes.asp -->
+</head>
+<body>
+    <div class="hover">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, mollitia facere voluptates asperiores error inventore deserunt deleniti, ipsam,
+        </p>
+    </div>
+    <div class="listado">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="https://google.com" target="_blank">Enlace a Google</a>
+        <a href="https://wikipedia.com" target="_blank">Enlace a Wikipedia</a>
+    </div>
+</body>
+</html> 

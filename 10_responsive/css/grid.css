@@ -1,0 +1,32 @@
+.contenedor {
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    /* row-gap: 1rem; */
+    /* column-gap: 1rem; */
+    gap: .5rem;
+    /* grid-template-columns: repeat(4,auto); */
+    /* grid-template-columns: 20px 3rem 16vw; */
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-areas: 'head head head' 'main main aside' 'footer footer footer';
+}
+
+.item {
+    background-color: aquamarine;
+    padding: .25rem;
+    color: black;
+    font-size: 1rem;
+    border: 1px solid black;
+}
+
+.item9 {
+    /* grid-area: head; */
+    grid-area: 2 / 1 / 6 / 3;
+    /* filainicio / columnainicio / filafin / columnafin */
+}
+
+.item1 {
+    /* grid-area: footer; */
+    grid-column: 2 / span 2;
+    /* empieza en el 2, se expande 2 cuadros */
+}

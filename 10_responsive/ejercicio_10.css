@@ -1,0 +1,55 @@
+.contenedor {
+    background-color: bisque;
+    display: flex;
+    height: 97vh;
+    width: 97vw;
+    
+}
+
+
+.barra {
+    background-color: salmon;
+    padding: 1rem;
+}
+
+.principal {
+    background-color: antiquewhite;
+    flex-grow: 1;
+    align-content: center;
+    justify-content: center;
+}
+
+.elemento {
+    padding: 2rem;
+}
+
+@media (max-width: 640px) {
+    .contenedor {
+        background-color: bisque;
+        display: flex;
+        height: 97vh;
+        width: 97vw;
+        flex-direction: column-reverse;
+    }
+    
+    
+    .barra {
+        display: flex;
+        background-color: salmon;
+        padding: 10px;
+        position: fixed;
+        width: 500px;
+        height: 50px;
+    }
+    
+    .principal {
+        background-color: antiquewhite;
+        flex-grow: 1;
+    }
+    
+    .elemento {
+        justify-content: center;
+        align-items: center;
+        padding: 5px 20px;
+    }
+}

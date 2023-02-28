@@ -1,0 +1,16 @@
+.boton:after {
+    content: "Pasa por encima";
+    display: block;
+    
+}
+
+.boton:hover {
+    color: white;
+    background-color: green;
+    }
+
+.boton:active:after {
+    content: "Hecho";
+    display: block;
+    border-radius: 10;
+}

@@ -1,0 +1,49 @@
+h1 {
+    color:crimson;
+}
+/*Estoy probando colores*/
+p {
+    color: blue;
+    font-size: 16pt;
+
+}
+
+#primera {
+    color: green;
+    font-size: 18pt;
+}
+/*la almohoadilla # se usa para invocar id´s*/
+#segunda {
+    color: rgb(99, 21, 34);
+
+}
+/*el punto se usa para invocar classes*/
+.encabezado {
+    font-size: 22pt;
+    text-transform: uppercase;
+
+}
+/*el asterisco * se usa para aplicar el estilo a todo lo que no tenga estilo especificado*/
+* {
+    color: rgb(12, 12, 3);
+}
+/* selector universal * */
+*.warning {
+    color: red;
+}
+
+.autor {
+    text-decoration: underline;
+}
+
+.fecha {
+    text-decoration: underline
+}
+
+.ubicacion {
+    text-decoration: underline;
+}
+/*tambien se puede hacer asi y modificar varios selectores a la vez*/
+.autor, .fecha, .ubicacion, h1, #segunda {
+    text-decoration: underline;
+}

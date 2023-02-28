@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor p {
+    color: green;
+}
+
+.contenedor #boton-contenedor {
+    background-color: cadetblue;
+}

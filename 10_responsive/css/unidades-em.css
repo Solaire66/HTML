@@ -1,0 +1,27 @@
+html {
+    font-size: 30px;
+}
+.escenario {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.escenario-1 {
+    font-size: 30px;
+}
+
+.escenario-2 {
+    font-size: 16px;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.rem {
+    font-size: 2rem;
+}
+
+/* "rem" hace referencia al elemento raiz (el html aqui caso) */
+
+/* "em" hace referencia al tamaño de su contenedor padre */

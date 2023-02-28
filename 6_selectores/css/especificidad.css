@@ -1,0 +1,22 @@
+/* El id tiene mas relevancia que el class y el class mas relevante que el tag */
+/* se puede usar el controlador !important para darle prioridad a la seleccion, pero hay que evitarlo por cuestion estetica */
+
+#h1-id {
+    color: pink;
+
+}
+
+.h1-class {
+    color: green;
+
+}
+
+h1 {
+    color: blue !important;
+
+}
+
+p {
+    color: crimson;
+
+} 
